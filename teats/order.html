@@ -15,7 +15,166 @@
 
 	<body>
 
-		<h1>PLACEHOLDER</h1>
+        <nav class="colorNav blue darken-4" role="navigation">
+            <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
+
+                <a href="#" class="brand-logo center orange-text">
+  				    <img src="/Users/tristannica/Desktop/Q1 Assessment/T-Eats/teats/img/galvanize-logo.svg"> (<strong>eats</strong>)
+  			    </a>
+
+
+                <a href="#" data-activates="nav-mobile" class="button-collapse"></a>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col l7">
+                    <div class="l12">
+                        <h4>&nbspMenu</h4></div>
+                    <!-- </div>
+            <div class="row"> -->
+                    <div class="col s12 m6 l6">
+                        <div class="card ">
+                            <div class="card-image">
+                                <img src="img/burger.jpg" />
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Hamburger</span>
+                                <p>$8.99</p>
+                            </div>
+                            <div class="card-action">
+                                <a class="pink-text order-button" data-title='Hamburger'>Add To Order</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l6">
+                        <div class="card ">
+                            <div class="card-image">
+                                <img src="img/pizza.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Sausage Pizza</span>
+                                <p>$7.99</p>
+                            </div>
+                            <div class="card-action">
+                                <a class="pink-text order-button" data-title='Sausage Pizza'>Add To Order</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l6">
+                        <div class="card ">
+                            <div class="card-image">
+                                <img src="img/ribs.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Hamburger</span>
+                                <p>$14.99</p>
+                            </div>
+                            <div class="card-action">
+                                <a class="pink-text order-button" data-title='Ribs'>Add To Order</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l6">
+                        <div class="card ">
+                            <div class="card-image">
+                                <img src="img/ice_cream.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title">Ice_Cream</span>
+                                <p>$11.99</p>
+                            </div>
+                            <div class="card-action">
+                                <a class="pink-text order-button" data-title='Ice_Cream'>Add To Order</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col l6"><h4>Menu</h4></div>
+            <div class="col l6"><h4>Menu</h4></div> -->
+
+                </div>
+
+                <div class="col l5">
+                    <h4>Order</h4>
+                    <div class="row">
+                        <div class="col s12 cartHere">
+                            <table class="striped">
+                                <col align="left">
+                                <col align="right">
+                                <thead>
+                                    <tr>
+                                        <th data-field="item">Item</th>
+                                        <th data-field="quantity">Quantity</th>
+                                        <th data-field="price" class="right-align">Item Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tBodyHere">
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col s6">&nbsp</div>
+
+                        <div class="col s6 totals" id="totals">
+
+                        </div>
+                        <form class="col s12" action="javascript:alert( 'Order Placed!' );" method="get">
+                            <div class="row">
+                                <div class="input-field col s12 ">
+                                    <i class="material-icons prefix ">account_circle</i>
+                                    <input required id="first_name" type="text" class="validate" placeholder="Bill Gates">
+                                    <label for="first_name">Name</label>
+
+                                </div>
+                                <div class="input-field col s12">
+                                    <i class="material-icons prefix">phone</i>
+                                    <input required id="icon_telephone" type="tel" class="validate" placeholder="### ###-####" required>
+                                    <label for="icon_telephone">Telephone</label>
+                                </div>
+
+                                <div class="input-field col s12">
+                                    <i class="material-icons prefix">store</i>
+                                    <textarea required id="address" class="materialize-textarea" placeholder="1234 My House Welcome To It" required></textarea>
+                                    <label for="address">Address</label>
+                                </div>
+                            </div>
+                            <div class="row center">
+                                <input type="submit" class=" center btn-large waves-effect waves-light pink" value="Place an Order" id="order-place">
+                            </div>
+
+                        </form>
+                        <!-- <div class="clearfix"></div>
+                        <div class="row center">
+                            <a id="download-button" class="btn-large waves-effect waves-light pink">Place an Order</a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="page-footer dark blue darken-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Galvanize Eats</h5>
+                    </div>
+                    <div class="col l3 s12">
+                        <h5 class="white-text"></h5>
+                    </div>
+                    <div class="col l3 s12">
+                        <ul>
+                            <li><a class="white-text" href="index.html">HOME</a></li>
+                            <li><a class="white-text" href="order.html">ORDER</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright center dark blue darken-2">
+                <div class="container">
+                    © Galvanize 2017 + Platte, Denver, CO
+                </div>
+            </div>
+        </footer>
 
 
 		<!--Import scripts-->

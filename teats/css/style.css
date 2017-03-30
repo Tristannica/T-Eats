@@ -1,3 +1,25 @@
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
 .nav-wrapper{
-  background-color: #000170;
+    color: #1565C0;
+}
+.colorNav{
+    color: #1565C0;
+}
+.body {
+  background-image: url("https://raw.githubusercontent.com/Tristannica/galvanize-eats/master/media/restaurant-hero-image.jpg");
+  opacity: 0.5;
+}
+.prices1{
+  font-size: 12pt;
+}
+.card-image img{
+}
+
+#material-icons{
+    color: #e67207;
 }
